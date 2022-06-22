@@ -1,0 +1,28 @@
+[app]
+name = ""
+port = ""
+key = ""
+url = ""
+
+[database]
+driver = "mysql"
+host = ""
+port = "3306"
+username = ""
+password = ""
+name = ""
+
+[log]
+driver = "mongodb"
+host = ""
+port = "27017"
+username = ""
+password = ""
+name = ""
+
+[mail]
+host = "smtp.gmail.com"
+port = "587"
+sender = ""
+username = ""
+password = ""

@@ -1,0 +1,37 @@
+[app]
+name = "gym-membership"
+port = "2022"
+key = "CGoa4UDtWGnFIhFE3USJ8s6IIiwXhLvMg9R09OlAxlJFHp7UPzKRnjhmwpEl1pM8"
+url = ""
+
+[database]
+driver = "mysql"
+host = "gym.cbiah2ikrh8y.us-west-2.rds.amazonaws.com"
+# host = "localhost"
+port = "3306"
+username = "admin"
+# username = "root"
+password = "toorroot"
+# password = ""
+name = "gym"
+
+[bucket]
+aws_bucket_name = "gym-membership-bucket"
+aws_region = "ap-southeast-1"
+aws_access_key_id = "AKIA5UHDFPMVSR6KAF55"
+aws_secret_access_key = "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"
+
+[log]
+driver = "mongodb"
+host = ""
+port = "27017"
+username = ""
+password = ""
+name = ""
+
+[mail]
+host = "smtp.gmail.com"
+port = "587"
+sender = "Gym Membership"
+username = "gym.membership.project@gmail.com"
+password = "gfdjgjmoqiwhdgve"
